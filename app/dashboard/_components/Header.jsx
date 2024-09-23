@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React from 'react'
 
 function Header(){
-    const {user}=useKindeBrowserClient();// hello world
+    const {user}=useKindeBrowserClient();// hello
     return(
         <div className='p-4 shadow-sm border flex justify-between'>
             <div>
